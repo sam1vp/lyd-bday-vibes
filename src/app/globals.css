@@ -24,3 +24,23 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Custom Mapbox Popup Styling */
+.mapboxgl-popup-content {
+  padding: 0 !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.mapboxgl-popup-tip {
+  border-top-color: white !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .mapboxgl-popup-content {
+    background-color: #1f2937 !important;
+  }
+  .mapboxgl-popup-tip {
+    border-top-color: #1f2937 !important;
+  }
+}

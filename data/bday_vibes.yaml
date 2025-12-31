@@ -1,0 +1,23 @@
+center:
+  lat: 37.8715  # Berkeley, CA coordinates
+  lng: -122.2730
+  zoom: 13
+
+markers:
+  - id: 1
+    lat: 37.8715
+    lng: -122.2730
+    title: "Marker Title"
+    image: "/path/to/image.jpg"
+    description: "Marker description text"
+
+ticker:
+  items:
+    - "First ticker item"
+    - "Second ticker item"
+
+content:
+  title: "Happy Birthday Lyd"
+  text1: "Some text content"
+  text2: "More text content"
+
