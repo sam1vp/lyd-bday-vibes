@@ -6,6 +6,7 @@ export interface MapCenter {
   lat: number;
   lng: number;
   zoom: number;
+  section_title: string;
 }
 
 export interface Marker {
@@ -27,11 +28,26 @@ export interface Content {
   text2?: string;
 }
 
+export interface Hike {
+  id: number;
+  image: string;
+  title: string;
+  description: string;
+  alltrails: string;
+  directions: string;
+}
+
+export interface Hikes {
+  section_title: string;
+  items: Hike[];
+}
+
 export interface BirthdayData {
   center: MapCenter;
   markers: Marker[];
   ticker: Ticker;
   content: Content;
+  hikes: Hikes;
 }
 
 /**

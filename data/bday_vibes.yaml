@@ -1,23 +1,203 @@
 center:
-  lat: 37.8715  # Berkeley, CA coordinates
-  lng: -122.2730
+  # Center requested: 1199 Chaucer St, Berkeley, CA
+  # NOTE: I couldn't fetch a definitive coordinate for this residential address from public pages in a verifiable way.
+  # This is the default Berkeley center for now; we can replace it once you geocode the exact address.
+  lat: 37.86376498837799
+  lng: -122.28932204011183
   zoom: 13
+  section_title: "Some of our favorite neighborhood spots"
 
 markers:
   - id: 1
-    lat: 37.8715
-    lng: -122.2730
-    title: "Marker Title"
-    image: "/path/to/image.jpg"
-    description: "Marker description text"
+    title: "Strawberry Creek Park"
+    lat: 37.867123583239135
+    lng: -122.28621452163034
+    image: "/images/strawberry-creek-park.png"
+    description: "One of our favorites, has a creek running through it, playground, picnic area. Hidden Cafe for coffee."
+    
+  - id: 3
+    title: "Mi Tierra Foods"
+    lat: 37.8679046
+    lng: -122.2919388
+    image: "/images/mi-tierra-foods.png"
+    description: "Solid mexican grocer, probably your closes produce. Good tortillas, breakfast burrito."
 
-ticker:
-  items:
-    - "First ticker item"
-    - "Second ticker item"
+  - id: 4
+    title: "Vik's Chaat"
+    lat: 37.8614015052815
+    lng: -122.29803416395893
+    image: "/images/viks-chaat.png"
+    description: "Legendary indian cafeteria + market next door."
+
+  - id: 5
+    title: "CoRo Coffee Room"
+    lat: 37.86240155573391
+    lng: -122.29736000322914
+    image: "/images/coro-coffee.png"
+    description: "Best cafe for a pretentious cup of coffee, industrial west berkeley vibes, laptop friendly."
+
+  - id: 6
+    title: "La Noisette / Year of the Snake"
+    lat: 37.857144494771276
+    lng: -122.29171250322925
+    image: "/images/la-noisette.png"
+    description: "Bakery co-op with various popups — Noisette for french pastries, Year of the Snake for asian pastried. Third Culture is around the corner, excellent matcha + mochi muffins."
+
+  - id: 55
+    title: "Third Culture "
+    lat: 37.85695604637779
+    lng: -122.29171183020033
+    image: "/images/third-culture.png"
+    description: "Excellent matcha drinks + mochi muffins."
+
+  - id: 7
+    title: "San Pablo Park"
+    lat: 37.855842575266244
+    lng: -122.28400115175769
+    image: "/images/san-pablo-park.png"
+    description: "Our second backyard"
+
+  - id: 8
+    title: "Aquatic Park"
+    lat: 37.86058504123684
+    lng: -122.2994593874433
+    image: "/images/aquatic-park.png"
+    description: "Nice little winding park along the water, with a big wooden playground on the north side."
+
+  - id: 10
+    title: "Lavender Bread & Cafe"
+    lat: 37.868092552567
+    lng: -122.29145755025147
+    image: "/images/lavender-bread.png"
+    description: "Good bread, your closest good coffee shop, laptop friendly."
+
+  - id: 11
+    title: "Mile Limit Wine Shop"
+    lat: 37.86849539819279
+    lng: -122.29223744555571
+    image: "/images/mile-limit.png"
+    description: "Your local bottle shop"
+
+  - id: 12
+    title: "Missouri Lounge"
+    lat: 37.85914717196969
+    lng: -122.28916707439261
+    image: "/images/missouri-lounge.png"
+    description: "aka MoLo, aka Misery Lounge. Our favorite dive bar in the area, good patio."
+
+  - id: 13
+    title: "Target"
+    lat: 37.869777079280894
+    lng: -122.28385949018514
+    image: "/images/target-university.png"
+    description: "Closest big box store for sundries and such"
+
+  - id: 14
+    title: "Fosters Freeze"
+    lat: 37.86957186151878
+    lng: -122.28971108198155
+    image: "/images/fosters-freeze.png"
+    description: "Classic soft-serve roadside window"
+
+  - id: 15
+    title: "Pyeong Chang Tofu"
+    lat: 37.86990933384385
+    lng: -122.28754463551445
+    image: "/images/pyeong-chang-tofu.png"
+    description: "If you like korean, this place is really good"
+
+  - id: 16
+    title: "4th Street Shopping"
+    lat: 37.86996229368765
+    lng: -122.3010279106777
+    image: "/images/fourth.png"
+    description: "Fancy berkeley shopping district - apple store, anthropologie, etc"
+
+  - id: 17
+    title: "900 Grayson"
+    lat: 37.855226611311245
+    lng: -122.29233824232703
+    image: "/images/900-grayson.png"
+    description: "Good Breakfast"
+
+  - id: 18
+    title: "Berkeley Bowl West"
+    lat: 37.85307684764738
+    lng: -122.28994562347259
+    image: "/images/berkeley-bowl-west.png"
+    description: "Hectic but the best"
+
+  - id: 20
+    title: "Trader Joe's"
+    lat: 37.87173931013361
+    lng: -122.27318444730878
+    image: "/images/trader-joes.png"
+    description: "TJs is pretty close to you"
+
+  - id: 21
+    title: "Dr. Barry Kami, DDS"
+    lat: 37.871553375804744
+    lng: -122.27458737253691
+    image: "/images/dr-kami.png"
+    description: "Great dentist"
+
+  - id: 22
+    title: "Cesar Chavez Park"
+    lat: 37.872186924246066
+    lng: -122.31894909441998
+    image: "/images/cesar-chavez.png"
+    description: "Nice Waterfront Park"
+
+  - id: 23
+    title: "Berkeley Library (West Branch)"
+    lat: 37.86949394206359
+    lng: -122.2909533311874
+    image: "/images/berkeley-library-west.png"
+    description: "Your closest library branch"
+
+  - id: 24
+    title: "Berkeley Library (Central Branch)"
+    lat: 37.868128368192345
+    lng: -122.26844422748324
+    image: "/images/berkeley-library-central.png"
+    description: "The big library, tons of kids programming"
+
 
 content:
   title: "Happy Birthday Lyd"
-  text1: "Some text content"
-  text2: "More text content"
+  text1: "and happy new year!"
+  text2: "We're so excited for your extended visit. Here's a few recs so you and Louie can make the most of it — AI-constructed, but with human brother-curated content."
 
+hikes:
+  section_title: "A few of my favorite east bay hikes"
+  items:
+    - id: 1
+      image: "/images/hikes/claremont.png"
+      title: "Claremont Canyon"
+      description: "My most often hiked, it's nearby, and has a straight uphill start so you can get a quick workout + great views. Here's a bigger loop you can do, though I most often do a shorter out-and-back."
+      alltrails: "https://www.alltrails.com/trail/us/california/stonewall-panoramic-loop?p=118062295"
+      directions: "https://www.google.com/maps/place/3001+Derby+St,+Berkeley,+CA+94705/@37.8625838,-122.2470191,18z/data=!3m1!4b1!4m6!3m5!1s0x80857dcb20c83949:0x3b93d27dc39415f0!8m2!3d37.8625816!4d-122.2456905!16s%2Fg%2F11g62nb295?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+    - id: 2
+      image: "/images/hikes/french.png"
+      title: "Reinhart Regional"
+      description: "One of my favorite gems in the east bay, not big views, but cool trails + big redwoods."
+      alltrails: "https://www.alltrails.com/trail/us/california/french-trail-star-flower-trail-and-stream-trail-loop?p=117909982"
+      directions: "https://www.google.com/maps/place/Skyline+Gate+Staging+Area/@37.8317039,-122.1853764,17z/data=!3m1!4b1!4m6!3m5!1s0x808f87e59b31d7d9:0xbaed87c45ceebd09!8m2!3d37.8317039!4d-122.1853764!16s%2Fg%2F1tdbw_5d?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+    - id: 3
+      image: "/images/hikes/joaquin.png"
+      title: "Joaquin Miller"
+      description: "A tiny park next to reinhart that's always excellent, here's a nice loop in it"
+      alltrails: "https://www.alltrails.com/trail/us/california/sunset-trail-to-sequoia-bayview-and-big-trees-loop?p=117531080"
+      directions: "https://www.google.com/maps/place/37%C2%B048'40.9%22N+122%C2%B011'10.2%22W/@37.8113621,-122.1874665,18z/data=!3m1!4b1!4m4!3m3!8m2!3d37.81136!4d-122.186179?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+    - id: 4
+      image: "/images/hikes/briones.png"
+      title: "Briones Regional"
+      description: "Bit too early for wildflowers but there should be some beautiful green hills here in feb, though beware of mud."
+      alltrails: "https://www.alltrails.com/trail/us/california/briones-crest-and-briones-ridge-loop?p=116859113"
+      directions: "https://www.google.com/maps/place/Bear+Creek+Staging+Area/@37.9265857,-122.1650317,16.09z/data=!4m6!3m5!1s0x8085635818004aef:0x6d1f0e6c2b3de80d!8m2!3d37.92568!4d-122.1626609!16s%2Fg%2F12hrdv_bf?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+    - id: 5
+      image: "/images/hikes/sibley.png"
+      title: "Sibley Volcanic"
+      description: "I love Sibley, it's nearby, quick loops, nice mix of views and interesting terrain."
+      alltrails: "https://www.alltrails.com/trail/us/california/bay-area-ridge-round-top-loop-and-volcanic-trail-loop?p=-1"
+      directions: "https://www.google.com/maps/place/37%C2%B050'52.2%22N+122%C2%B011'56.1%22W/@37.8478442,-122.2014939,17z/data=!3m1!4b1!4m4!3m3!8m2!3d37.84784!4d-122.198919?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"

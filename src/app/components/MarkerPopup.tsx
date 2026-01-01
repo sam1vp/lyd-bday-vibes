@@ -9,13 +9,13 @@ interface MarkerPopupProps {
 
 export default function MarkerPopup({ marker }: MarkerPopupProps) {
   return (
-    <div className="max-w-sm">
-      <h2 className="mb-3 text-xl font-bold text-gray-900 dark:text-white">
+    <div className="max-w-sm p-4">
+      <h2 className="mb-3 text-xl font-bold text-black">
         {marker.title}
       </h2>
 
       {marker.image && (
-        <div className="mb-3 overflow-hidden rounded-lg">
+        <div className="mb-3 overflow-hidden rounded-lg border-2 border-black">
           <Image
             src={marker.image}
             alt={marker.title}
@@ -26,7 +26,7 @@ export default function MarkerPopup({ marker }: MarkerPopupProps) {
         </div>
       )}
 
-      <p className="text-sm text-gray-700 dark:text-gray-300">{marker.description}</p>
+      <p className="text-sm text-black">{marker.description}</p>
     </div>
   );
 }
