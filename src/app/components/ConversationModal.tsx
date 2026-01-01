@@ -236,6 +236,14 @@ const conversationData: Message[] = [
   {
     role: 'assistant',
     content: "I'll update the conversation data to include your very first prompt about creating the one-page birthday website, my initial response, and all subsequent exchanges including this current conversation."
+  },
+  {
+    role: 'user',
+    content: "Let's remove a few elements when views on mobile devices: The annotations, the spinning head, and the triangles. And be sure to update the AI-constructed dialogue with this new prompt + answer"
+  },
+  {
+    role: 'assistant',
+    content: "I'll hide the annotations, spinning head, and triangles on mobile devices using Tailwind's responsive classes (hidden md:block), and update the conversation modal with this new prompt and answer."
   }
 ];
 

@@ -2,7 +2,7 @@
 
 export default function NeobrutalistShapes() {
   return (
-    <div className="absolute inset-0 pointer-events-none overflow-hidden z-0">
+    <div className="absolute inset-0 pointer-events-none overflow-hidden z-0 hidden md:block">
       {/* Bottom left yellow triangle */}
       <svg
         className="absolute"

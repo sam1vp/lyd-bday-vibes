@@ -30,19 +30,21 @@ export default function HomeContent({ data }: HomeContentProps) {
         </div>
         
         {/* Go Louie annotation - pointing to spinning head */}
-        <Annotation
-          text="Go Louie, Go!"
-          textStyle={{ left: '-250px', top: '20px' }}
-          linePath="M 120 30 Q 90 40 60 50"
-          lineViewBox="0 0 150 80"
-          lineWidth="150"
-          lineHeight="80"
-          lineStyle={{ left: '-150px', top: '-40px' }}
-          startCircleX="120"
-          startCircleY="30"
-          endCircleX="60"
-          endCircleY="50"
-        />
+        <div className="hidden md:block">
+          <Annotation
+            text="Go Louie, Go!"
+            textStyle={{ left: '-250px', top: '20px' }}
+            linePath="M 120 30 Q 90 40 60 50"
+            lineViewBox="0 0 150 80"
+            lineWidth="150"
+            lineHeight="80"
+            lineStyle={{ left: '-150px', top: '-40px' }}
+            startCircleX="120"
+            startCircleY="30"
+            endCircleX="60"
+            endCircleY="50"
+          />
+        </div>
       </div>
       
       <main className="w-full relative z-10" style={{ paddingTop: '30px', paddingBottom: '30px', paddingLeft: '30px', paddingRight: '30px' }}>
@@ -92,19 +94,21 @@ export default function HomeContent({ data }: HomeContentProps) {
               <HikesSectionOption1 title={data.hikes.section_title} hikes={data.hikes.items} />
               
               {/* Moldy backpacks annotation - pointing to right side of header */}
-              <Annotation
-                text="moldy backpacks not recommended"
-                textStyle={{ right: '-400px', bottom: '1500px' }}
-                linePath="M 0 20 Q 30 40 80 70"
-                lineViewBox="0 0 120 100"
-                lineWidth="120"
-                lineHeight="100"
-                lineStyle={{ left: '100px', top: '-1510px' }}
-                startCircleX="0"
-                startCircleY="20"
-                endCircleX="80"
-                endCircleY="70"
-              />
+              <div className="hidden md:block">
+                <Annotation
+                  text="moldy backpacks not recommended"
+                  textStyle={{ right: '-400px', bottom: '1500px' }}
+                  linePath="M 0 20 Q 30 40 80 70"
+                  lineViewBox="0 0 120 100"
+                  lineWidth="120"
+                  lineHeight="100"
+                  lineStyle={{ left: '100px', top: '-1510px' }}
+                  startCircleX="0"
+                  startCircleY="20"
+                  endCircleX="80"
+                  endCircleY="70"
+                />
+              </div>
             </div>
           </div>
         )}
