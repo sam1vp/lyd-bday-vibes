@@ -10,7 +10,7 @@ export default function TitleSection({ title, text1, text2 }: TitleSectionProps)
   return (
     <div className="flex flex-col items-center justify-center py-8 px-4 relative">
       {/* Container for Belated and line pointing to title */}
-      <div className="relative w-full mb-6" style={{ height: '60px' }}>
+      <div className="relative w-full mb-6 hidden md:block" style={{ height: '60px' }}>
         {/* Belated text positioned above-left */}
         <div className="absolute left-1/2 top-0" style={{ transform: 'translateX(calc(-50% - 300px)) translateY(20px)' }}>
           <span 
